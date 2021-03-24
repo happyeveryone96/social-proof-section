@@ -9,54 +9,81 @@ h1 {
     position: relative;
     text-align: left;
 }
+
 .container {
     background-color: white;
     width: 100vw;
     height: 100vh;
     position: relative;
-    left:100px;
-    top:100px;
     text-align: center;
     align-items: center;
     background-image: url('images/bg-pattern-bottom-desktop.svg'),
     url('images/bg-pattern-top-desktop.svg');
+    background-position: left top, right bottom;
     background-repeat: no-repeat;
-
 }
 
 #first-content {
+    position: relative;
     text-align: left;
+    left: 250px;
+    top: 120px;
     color: hsl(300, 43%, 22%);
 }
 
-.rate {
+.container .rate {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color:hsl(300, 24%, 96%);
     width: 500px;
     position: relative;
-    left: 500px;
+    left: 1000px;
+    top: 150px;
     padding: 10px;
 }
 
 #a {
+    display: flex;
     position: relative;
     right: 50px;
+    height: 50px;
+    background-color:hsl(300, 24%, 96%);
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
 }
+
 #b {
+    display: flex;
     position: relative;
+    height: 50px;
+    margin: 10px;
+    background-color:hsl(300, 24%, 96%);
+    align-items: center;
+    justify-content: center;
 }
-.rate #c{
+
+#c {
+    display: flex;
     position: relative;
     left:50px;
+    height: 50px;
+    margin: 10px;
+    background-color:hsl(300, 24%, 96%);
+    align-items: center;
+    justify-content: center;
 }
 
 .person {
     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #smith, #robert, #wallace{
+    border-radius: 10px;
     color: white;
     background-color: hsl(300, 43%, 22%);;
     width: 300px;
@@ -65,11 +92,22 @@ h1 {
     margin:10px;
 }
 
-.bg{
-    display: flexbox;
+#smith {
     position: relative;
+    top:-20px;
 }
 
+#wallace{
+    position: relative;
+    top:20px;
+}
+
+
 img {
-    border-radius: 50%;;
+    border-radius: 50%;
+}
+
+.attribution{
+    position: relative;
+    bottom: -110px;
 }
