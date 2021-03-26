@@ -1,5 +1,5 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
 }
 
@@ -8,6 +8,8 @@ h1 {
     font-size: 70px;
     position: relative;
     text-align: left;
+    left: 250px;
+    top: 100px;
 }
 
 .container {
@@ -16,8 +18,8 @@ h1 {
     position: relative;
     text-align: center;
     align-items: center;
-    background-image: url('images/bg-pattern-bottom-desktop.svg'),
-    url('images/bg-pattern-top-desktop.svg');
+    background-image: url('images/bg-pattern-top-desktop.svg'),
+        url('images/bg-pattern-bottom-desktop.svg');
     background-position: left top, right bottom;
     background-repeat: no-repeat;
 }
@@ -34,8 +36,8 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 500px;
     position: relative;
+    width: 500px;
     left: 1000px;
     top: -150px;
     padding: 10px;
@@ -46,7 +48,7 @@ h1 {
     position: relative;
     right: 50px;
     height: 50px;
-    background-color:hsl(300, 24%, 96%);
+    background-color: hsl(300, 24%, 96%);
     margin: 10px;
     align-items: center;
     justify-content: center;
@@ -57,7 +59,7 @@ h1 {
     position: relative;
     height: 50px;
     margin: 10px;
-    background-color:hsl(300, 24%, 96%);
+    background-color: hsl(300, 24%, 96%);
     align-items: center;
     justify-content: center;
 }
@@ -65,10 +67,10 @@ h1 {
 #c {
     display: flex;
     position: relative;
-    left:50px;
+    left: 50px;
     height: 50px;
     margin: 10px;
-    background-color:hsl(300, 24%, 96%);
+    background-color: hsl(300, 24%, 96%);
     align-items: center;
     justify-content: center;
 }
@@ -81,41 +83,43 @@ h1 {
     text-align: center;
 }
 
-#smith, #robert, #wallace{
+#smith,
+#robert,
+#wallace {
     border-radius: 10px;
     color: white;
-    background-color: hsl(300, 43%, 22%);;
+    background-color: hsl(300, 43%, 22%);
     width: 400px;
     height: 300px;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
 }
 
 #smith {
     position: relative;
-    top:-20px;
+    top: -20px;
 }
 
-#wallace{
+#wallace {
     position: relative;
-    top:20px;
+    top: 20px;
 }
 
 img {
     border-radius: 50%;
 }
 
-.attribution{
+.attribution {
     position: relative;
     bottom: -110px;
 }
+
 @media (max-width: 375px) {
     body {
         width: 375px;
     }
 
     h1 {
-        /* display: none; */
         display: flex;
         width: 300px;
         left: 50px;
