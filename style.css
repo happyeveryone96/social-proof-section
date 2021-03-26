@@ -3,15 +3,6 @@
     margin: 0;
 }
 
-h1 {
-    color: hsl(300, 43%, 22%);
-    font-size: 70px;
-    position: relative;
-    text-align: left;
-    left: 250px;
-    top: 100px;
-}
-
 .container {
     width: 100vw;
     height: 100vh;
@@ -22,6 +13,15 @@ h1 {
         url('images/bg-pattern-bottom-desktop.svg');
     background-position: left top, right bottom;
     background-repeat: no-repeat;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 70px;
+    position: relative;
+    text-align: left;
+    left: 250px;
+    top: 100px;
 }
 
 #first-content {
