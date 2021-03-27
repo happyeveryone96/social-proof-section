@@ -115,9 +115,10 @@ img {
 }
 
 @media (max-width: 375px) {
-    body {
-        width: 375px;
-    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        }
 
     h1 {
         display: flex;
